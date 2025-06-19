@@ -1,0 +1,54 @@
+    /* estilos del sidebar */
+    .sidebar {
+        font-family: 'Poppins', sans-serif;
+        width: 250px;
+        height: 100vh;
+        background: #092034;    
+        color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding-top: 20px;
+    }
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+    .sidebar ul li {
+        padding: 10px;
+        cursor: pointer;
+    }
+    .sidebar ul li:hover {
+        background: #bc8a55;
+    }
+    .sidebar ul li ul li:hover {
+        background: #7955bc;
+    }
+    .content {
+        margin-left: 250px;
+        padding: 20px;
+        flex-grow: 1;
+    }
+    .cerrar {
+        margin-top: 300px;
+        padding: 20px
+    }
+    .cerrar:hover {
+        background: #bc8a55;
+    }
+    .a-bar {
+        align-items: center;
+        display:    flex;
+    }
+    i{
+        align-items: center;
+        display: flex;
+
+    }
+    .submenu li {
+        padding: 5px 0;
+    }
+
+    .submenu a:hover {
+        text-decoration: underline;
+    }
